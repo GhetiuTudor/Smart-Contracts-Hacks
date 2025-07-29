@@ -10,8 +10,6 @@ contract VulnerableStaking {
         balances[msg.sender] += msg.value;
     }
 
-
-
     //...
     //Any necessary logic 
     //...
