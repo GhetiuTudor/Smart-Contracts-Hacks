@@ -10,6 +10,12 @@ contract VulnerableStaking {
         balances[msg.sender] += msg.value;
     }
 
+
+
+    //...
+    //Any necessary logic 
+    //...
+
     // Vulnerable withdraw function 
     function withdraw(uint256 amount) public {
         require(balances[msg.sender] >= amount, "Insufficient balance");
